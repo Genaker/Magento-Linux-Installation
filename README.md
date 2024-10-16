@@ -1,4 +1,4 @@
-# Magento Commerce Cloud to Ubuntu Server/ AWS Linux 2 (Centos 7) / Azure Centos 8.2/ Oracle Linux 8Installation migration tool with ARM Graviton2/Ampere instances support  
+# Magento Commerce Cloud to Ubuntu Server / AWS Linux 2 (Centos 7) / Azure Centos 8.2/ Oracle Linux 8Installation migration tool with ARM Graviton2/Ampere instances support  
 
 Fast Run (AWS Linux 2, Centos 8, Oracle Linux 8):
 ```
