@@ -1,4 +1,4 @@
-# Magento Commerce Cloud to AWS Linux 2 (Centos 7) / Azure Centos 8.2/ Oracle Linux 8 Installation migration tool with ARM Graviton2/Ampere instances support  
+# Magento Commerce Cloud to Ubuntu Server/ AWS Linux 2 (Centos 7) / Azure Centos 8.2/ Oracle Linux 8Installation migration tool with ARM Graviton2/Ampere instances support  
 
 Fast Run (AWS Linux 2, Centos 8, Oracle Linux 8):
 ```
@@ -15,6 +15,9 @@ or short form using **install script**:
 wget https://raw.githubusercontent.com/Genaker/Magento-AWS-Linux-2-Installation/master/install-script.sh
 sudo bash ./install-script.sh
 ```
+# Magento 2 Ubuntu Server 24 ARM installation 
+
+Script: https://github.com/Genaker/Magento-Linux-Installation/blob/master/magento2-ubuntu24-arm-installation.sh
 
 # To Change Domain 
 Point DNS to IP or Load Blancer and:
