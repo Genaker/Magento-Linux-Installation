@@ -120,7 +120,7 @@ composer create-project --repository-url=https://repo.magento.com/ magento/proje
 
 cd /var/www/html/magento/
 
-bin/magento setup:install --base-url=http://$MAGE_URL --db-host=localhost --db-name=magento --db-user=magento --db-password=magento --admin-firstname=Magento --admin-lastname=Admin --admin-email=admin@yourdomain.com --admin-user=admin --admin-password=admin123 --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1 --search-engine=opensearch
+bin/magento setup:install --base-url=http://$MAGE_URL --db-host=localhost --db-name=magento --db-user=magento --db-password=magento --admin-firstname=Magento --admin-lastname=Admin --admin-email=admin@yourdomain.com --admin-user=admin --admin-password=admin123 --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1 --search-engine=opensearch --opensearch-index=magento_site1
 
 yes | /var/www/html/magento/bin/magento setup:config:set --cache-backend=redis --cache-backend-redis-server=127.0.0.1 --cache-backend-redis-db=0
 yes | /var/www/html/magento/bin/magento setup:config:set --page-cache=redis --page-cache-redis-server=127.0.0.1 --page-cache-redis-db=1
